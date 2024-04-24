@@ -33,4 +33,3 @@ intent("Какой курс евро", (v) => {
 fallback((v) => {
   v.jump("NoMatch");
 });
-
